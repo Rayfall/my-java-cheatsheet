@@ -1,0 +1,30 @@
+//import BasicExamples.ExUserInputBasic;
+import BasicExamples.*;
+
+public class App {
+    public static void main(String[] args) throws Exception {
+        //System.out.println("Hello, World!");
+
+        //ExVariables var = new ExVariables();
+        //var.RunExample();
+
+        //ExSwapVariables swap = new ExSwapVariables();
+        //swap.RunExample();
+
+        //ExUserInputBasic uib = new ExUserInputBasic();
+        //uib.RunExample();
+
+        //ExArithmeticExpressions exp = new ExArithmeticExpressions();
+        //exp.RunExample();
+
+        //ExBasicGUI gui = new ExBasicGUI();
+        //gui.RunExample();
+
+        //ExMathBasic basicMath = new ExMathBasic();
+        //basicMath.RunExample();
+        //basicMath.RunExampleHypo();
+
+        //ExRandom random = new ExRandom();
+        //random.RunExample();
+    }
+}
