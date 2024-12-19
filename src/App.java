@@ -26,5 +26,11 @@ public class App {
 
         //ExRandom random = new ExRandom();
         //random.RunExample();
+
+        //ExIfStatement myIf = new ExIfStatement();
+        //myIf.RunExample();
+
+        ExSwitchStatement mySwitch = new ExSwitchStatement();
+        mySwitch.RunExample();
     }
 }
