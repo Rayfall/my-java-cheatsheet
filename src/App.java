@@ -1,36 +1,42 @@
 //import BasicExamples.ExUserInputBasic;
 import BasicExamples.*;
+import MadLibsGame.*;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        //System.out.println("Hello, World!");
+        System.out.println("Hello, World!");
 
-        //ExVariables var = new ExVariables();
-        //var.RunExample();
+        BasicExampleMethods();
+    }
 
-        //ExSwapVariables swap = new ExSwapVariables();
-        //swap.RunExample();
+    public static void BasicExampleMethods() {
+        ExVariables var = new ExVariables();
+        var.RunExample();
 
-        //ExUserInputBasic uib = new ExUserInputBasic();
-        //uib.RunExample();
+        ExSwapVariables swap = new ExSwapVariables();
+        swap.RunExample();
 
-        //ExArithmeticExpressions exp = new ExArithmeticExpressions();
-        //exp.RunExample();
+        ExUserInputBasic uib = new ExUserInputBasic();
+        uib.RunExample();
 
-        //ExBasicGUI gui = new ExBasicGUI();
-        //gui.RunExample();
+        ExArithmeticExpressions exp = new ExArithmeticExpressions();
+        exp.RunExample();
 
-        //ExMathBasic basicMath = new ExMathBasic();
-        //basicMath.RunExample();
-        //basicMath.RunExampleHypo();
+        ExBasicGUI gui = new ExBasicGUI();
+        gui.RunExample();
 
-        //ExRandom random = new ExRandom();
-        //random.RunExample();
+        ExMathBasic basicMath = new ExMathBasic();
+        basicMath.RunExample();
+        basicMath.RunExampleHypo();
 
-        //ExIfStatement myIf = new ExIfStatement();
-        //myIf.RunExample();
+        ExRandom random = new ExRandom();
+        random.RunExample();
+
+        ExIfStatement myIf = new ExIfStatement();
+        myIf.RunExample();
 
         ExSwitchStatement mySwitch = new ExSwitchStatement();
         mySwitch.RunExample();
     }
 }
+
