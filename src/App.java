@@ -1,13 +1,16 @@
 //import BasicExamples.ExUserInputBasic;
 import BasicExamples.*;
 import MadLibsGame.*;
+import ShoppingCart.*;
 
 public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
 
         //BasicExampleMethods();
-        MadLibsGameExample();
+        //MadLibsGameExample();
+
+        ShoppingCartExample();
     }
 
     public static void BasicExampleMethods() {
@@ -43,5 +46,11 @@ public class App {
         MadLibs game = new MadLibs();
 
         game.Madlibs();
+    }
+
+    public static void ShoppingCartExample() {
+        ShopCart cart = new ShopCart();
+
+        cart.ShoppingCart();
     }
 }
