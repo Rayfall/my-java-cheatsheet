@@ -27,6 +27,6 @@ public class MadLibs {
         System.out.println(noun1 + " was " + adjective2 + " and " + verb1 + "!");
         System.out.println("I was " + adjective3 + "!");
 
-        scanner.close();;
+        scanner.close();
     }    
 }

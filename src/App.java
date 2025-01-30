@@ -6,7 +6,8 @@ public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
 
-        BasicExampleMethods();
+        //BasicExampleMethods();
+        MadLibsGameExample();
     }
 
     public static void BasicExampleMethods() {
@@ -27,7 +28,6 @@ public class App {
 
         ExMathBasic basicMath = new ExMathBasic();
         basicMath.RunExample();
-        basicMath.RunExampleHypo();
 
         ExRandom random = new ExRandom();
         random.RunExample();
@@ -38,5 +38,10 @@ public class App {
         ExSwitchStatement mySwitch = new ExSwitchStatement();
         mySwitch.RunExample();
     }
-}
 
+    public static void MadLibsGameExample() {
+        MadLibs game = new MadLibs();
+
+        game.Madlibs();
+    }
+}
