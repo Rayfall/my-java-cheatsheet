@@ -9,8 +9,7 @@ public class App {
 
         //BasicExampleMethods();
         //MadLibsGameExample();
-
-        ShoppingCartExample();
+        //ShoppingCartExample();
     }
 
     public static void BasicExampleMethods() {
