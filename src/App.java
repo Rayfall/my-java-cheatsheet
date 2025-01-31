@@ -5,6 +5,7 @@ import ShoppingCart.*;
 import CompoundInterestCalculator.*;
 import WeightConverter.*;
 import TemperatureConverter.*;
+import EnhancedCalculator.*;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -14,8 +15,9 @@ public class App {
         //MadLibsGameExample();
         //ShoppingCartExample();
         //CalculatorExample();
-        WeightConversionExample();
+        //WeightConversionExample();
         //TemperatureConverterExample();
+        EnhancedCalculatorExample();
     }
 
     public static void BasicExampleMethods() {
@@ -75,5 +77,10 @@ public class App {
     public static void TemperatureConverterExample() {
         TemperatureConverter temp = new TemperatureConverter();
         temp.TempConverter();
+    }
+
+    public static void EnhancedCalculatorExample() {
+        EnhancedCalculator calc = new EnhancedCalculator();
+        calc.CalcProgram();
     }
 }
