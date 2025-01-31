@@ -2,6 +2,9 @@
 import BasicExamples.*;
 import MadLibsGame.*;
 import ShoppingCart.*;
+import CompoundInterestCalculator.*;
+import WeightConverter.*;
+import TemperatureConverter.*;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -10,6 +13,9 @@ public class App {
         //BasicExampleMethods();
         //MadLibsGameExample();
         //ShoppingCartExample();
+        //CalculatorExample();
+        WeightConversionExample();
+        //TemperatureConverterExample();
     }
 
     public static void BasicExampleMethods() {
@@ -39,6 +45,9 @@ public class App {
 
         ExSwitchStatement mySwitch = new ExSwitchStatement();
         mySwitch.RunExample();
+
+        ExTernaryOperator myTern = new ExTernaryOperator();
+        myTern.TernaryOperatorExample();
     }
 
     public static void MadLibsGameExample() {
@@ -51,5 +60,20 @@ public class App {
         ShopCart cart = new ShopCart();
 
         cart.ShoppingCart();
+    }
+
+    public static void CalculatorExample() {
+        CompoundCalculator calc = new CompoundCalculator();
+        calc.CompoundInterestCalculator();
+    }
+
+    public static void WeightConversionExample() {
+        WeightConverter weight = new WeightConverter();
+        weight.weightConversion();
+    }
+
+    public static void TemperatureConverterExample() {
+        TemperatureConverter temp = new TemperatureConverter();
+        temp.TempConverter();
     }
 }
