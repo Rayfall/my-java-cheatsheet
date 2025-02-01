@@ -6,6 +6,7 @@ import CompoundInterestCalculator.*;
 import WeightConverter.*;
 import TemperatureConverter.*;
 import EnhancedCalculator.*;
+import NumberGuessGame.*;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -17,7 +18,8 @@ public class App {
         //CalculatorExample();
         //WeightConversionExample();
         //TemperatureConverterExample();
-        EnhancedCalculatorExample();
+        //EnhancedCalculatorExample();
+        NumberGuessingGameExample();
     }
 
     public static void BasicExampleMethods() {
@@ -82,5 +84,10 @@ public class App {
     public static void EnhancedCalculatorExample() {
         EnhancedCalculator calc = new EnhancedCalculator();
         calc.CalcProgram();
+    }
+
+    public static void NumberGuessingGameExample() {
+        NumberGuessGame game = new NumberGuessGame();
+        game.NumberGuessingGame();
     }
 }
