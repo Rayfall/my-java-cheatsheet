@@ -7,6 +7,7 @@ import WeightConverter.*;
 import TemperatureConverter.*;
 import EnhancedCalculator.*;
 import NumberGuessGame.*;
+import BankingProgram.*;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -19,7 +20,8 @@ public class App {
         //WeightConversionExample();
         //TemperatureConverterExample();
         //EnhancedCalculatorExample();
-        NumberGuessingGameExample();
+        //NumberGuessingGameExample();
+        //BankingProgramExample();
     }
 
     public static void BasicExampleMethods() {
@@ -90,4 +92,10 @@ public class App {
         NumberGuessGame game = new NumberGuessGame();
         game.NumberGuessingGame();
     }
+
+    public static void BankingProgramExample() {
+        BankingProgram bank = new BankingProgram();
+        bank.BankProgram();
+    }
+    
 }
