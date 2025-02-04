@@ -9,6 +9,8 @@ import EnhancedCalculator.*;
 import NumberGuessGame.*;
 import BankingProgram.*;
 import DiceRollerProgram.*;
+import QuizGame.*;
+import RockPaperScissors.*;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -23,7 +25,9 @@ public class App {
         //EnhancedCalculatorExample();
         //NumberGuessingGameExample();
         //BankingProgramExample();
-        DiceRollerExample();
+        //DiceRollerExample();
+        //QuizGameExample();
+        RPSGameExample();
     }
 
     public static void BasicExampleMethods() {
@@ -103,5 +107,15 @@ public class App {
     public static void DiceRollerExample() {
         DiceRoller dice = new DiceRoller();
         dice.DiceProgram();
+    }
+
+    public static void QuizGameExample() {
+        QuizGame game = new QuizGame();
+        game.Game();
+    }
+
+    public static void RPSGameExample() {
+        RockPaperScissors game = new RockPaperScissors();
+        game.Game();
     }
 }
