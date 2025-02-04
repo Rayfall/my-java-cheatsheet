@@ -8,6 +8,7 @@ import TemperatureConverter.*;
 import EnhancedCalculator.*;
 import NumberGuessGame.*;
 import BankingProgram.*;
+import DiceRollerProgram.*;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -22,6 +23,7 @@ public class App {
         //EnhancedCalculatorExample();
         //NumberGuessingGameExample();
         //BankingProgramExample();
+        DiceRollerExample();
     }
 
     public static void BasicExampleMethods() {
@@ -98,4 +100,8 @@ public class App {
         bank.BankProgram();
     }
     
+    public static void DiceRollerExample() {
+        DiceRoller dice = new DiceRoller();
+        dice.DiceProgram();
+    }
 }
