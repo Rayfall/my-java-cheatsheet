@@ -11,6 +11,7 @@ import BankingProgram.*;
 import DiceRollerProgram.*;
 import QuizGame.*;
 import RockPaperScissors.*;
+import SlotMachine.*;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -27,7 +28,8 @@ public class App {
         //BankingProgramExample();
         //DiceRollerExample();
         //QuizGameExample();
-        RPSGameExample();
+        //RPSGameExample();
+        SlotMachineGame();
     }
 
     public static void BasicExampleMethods() {
@@ -116,6 +118,11 @@ public class App {
 
     public static void RPSGameExample() {
         RockPaperScissors game = new RockPaperScissors();
+        game.Game();
+    }
+
+    public static void SlotMachineGame() {
+        SlotMachine game = new SlotMachine();
         game.Game();
     }
 }
