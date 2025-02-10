@@ -1,4 +1,4 @@
-package ShoppingCart;
+package IntermediateExamples;
 import java.util.Scanner;
 
 public class ShopCart {

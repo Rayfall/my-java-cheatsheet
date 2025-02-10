@@ -1,4 +1,4 @@
-package WeightConverter;
+package IntermediateExamples;
 import java.util.Scanner;
 
 public class WeightConverter {

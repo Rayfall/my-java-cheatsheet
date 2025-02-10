@@ -1,4 +1,4 @@
-package BankingProgram;
+package IntermediateExamples;
 
 import java.util.Scanner;
 

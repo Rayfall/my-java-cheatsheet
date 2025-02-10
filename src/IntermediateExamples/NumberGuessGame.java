@@ -1,4 +1,4 @@
-package NumberGuessGame;
+package IntermediateExamples;
 
 import java.util.Random;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package MadLibsGame;
+package IntermediateExamples;
 import java.util.Scanner;
 
 public class MadLibs {

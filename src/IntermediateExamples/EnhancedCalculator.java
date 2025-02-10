@@ -1,4 +1,4 @@
-package EnhancedCalculator;
+package IntermediateExamples;
 
 import java.util.Scanner;
 

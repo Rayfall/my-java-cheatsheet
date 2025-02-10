@@ -1,4 +1,4 @@
-package SlotMachine;
+package IntermediateExamples;
 
 import java.util.Random;
 import java.util.Scanner;
