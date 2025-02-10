@@ -7,10 +7,11 @@ import AdvancedExamples.*;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        //System.out.println("Hello, World!");
+        System.out.println("Hello, World!");
 
         //BasicExampleMethods();
-        IntermediateExampleMethods();
+        //IntermediateExampleMethods();
+        AdvancedExampleMethods();
     }
 
     public static void BasicExampleMethods() {
@@ -90,7 +91,7 @@ public class App {
     }
 
     public static void AdvancedExampleMethods() {
-
+        MusicPlayerExample();
     }
 
     public static void MadLibsGameExample() {
@@ -153,5 +154,10 @@ public class App {
     public static void SlotMachineGame() {
         SlotMachine game = new SlotMachine();
         game.Game();
+    }
+
+    public static void MusicPlayerExample() {
+        MusicPlayer player = new MusicPlayer();
+        player.Player();
     }
 }
