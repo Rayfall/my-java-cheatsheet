@@ -1,4 +1,4 @@
-package AlarmClock;
+package AdvancedExamples;
 
 public class AlarmClock {
     

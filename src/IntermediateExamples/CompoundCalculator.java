@@ -1,4 +1,4 @@
-package CompoundInterestCalculator;
+package IntermediateExamples;
 import java.util.Scanner;
 
 public class CompoundCalculator {

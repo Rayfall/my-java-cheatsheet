@@ -1,4 +1,4 @@
-package CountdownTimer;
+package AdvancedExamples;
 
 public class CountdownTimer {
     

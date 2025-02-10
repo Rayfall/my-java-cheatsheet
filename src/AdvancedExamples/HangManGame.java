@@ -1,4 +1,4 @@
-package HangManGame;
+package AdvancedExamples;
 
 public class HangManGame {
     

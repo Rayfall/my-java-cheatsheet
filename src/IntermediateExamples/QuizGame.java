@@ -1,4 +1,4 @@
-package QuizGame;
+package IntermediateExamples;
 
 import java.util.Scanner;
 

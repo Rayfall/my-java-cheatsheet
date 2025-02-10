@@ -1,35 +1,15 @@
-//import BasicExamples.ExUserInputBasic;
+import java.util.Scanner;
+
 import BasicExamples.*;
-import MadLibsGame.*;
-import ShoppingCart.*;
-import CompoundInterestCalculator.*;
-import WeightConverter.*;
-import TemperatureConverter.*;
-import EnhancedCalculator.*;
-import NumberGuessGame.*;
-import BankingProgram.*;
-import DiceRollerProgram.*;
-import QuizGame.*;
-import RockPaperScissors.*;
-import SlotMachine.*;
+import IntermediateExamples.*;
+
 
 public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
 
         //BasicExampleMethods();
-        //MadLibsGameExample();
-        //ShoppingCartExample();
-        //CalculatorExample();
-        //WeightConversionExample();
-        //TemperatureConverterExample();
-        //EnhancedCalculatorExample();
-        //NumberGuessingGameExample();
-        //BankingProgramExample();
-        //DiceRollerExample();
-        //QuizGameExample();
-        //RPSGameExample();
-        SlotMachineGame();
+        IntermediateExampleMethods();
     }
 
     public static void BasicExampleMethods() {
@@ -62,6 +42,47 @@ public class App {
 
         ExTernaryOperator myTern = new ExTernaryOperator();
         myTern.TernaryOperatorExample();
+    }
+
+    public static void IntermediateExampleMethods() {        
+        int userChoice = 0;
+        System.out.println("Intermediate Examples Menu");
+        System.out.println("01. Madlibs Game Example");
+        System.out.println("02. Shopping Cart Example");
+        System.out.println("03. Calculator Example");
+        System.out.println("04. Weight Conversion Example");
+        System.out.println("05. Temperature Conversion Example");
+        System.out.println("06. Enhanced Calculator Example");
+        System.out.println("07. Number Guessing Game Example");
+        System.out.println("08. Banking Program Example");
+        System.out.println("09. Dice Roller Example");
+        System.out.println("10. Quiz Game Example");
+        System.out.println("11. Rock Paper Scissors Game Example");
+        System.out.println("12. Slot Machine Program Example");
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Which program would you like to run: ");
+        userChoice = scanner.nextInt();
+
+        switch(userChoice) {
+            case 1 -> MadLibsGameExample();
+            case 2 -> ShoppingCartExample();
+            case 3 -> CalculatorExample();
+            case 4 -> WeightConversionExample();
+            case 5 -> TemperatureConverterExample();
+            case 6 -> EnhancedCalculatorExample();
+            case 7 -> NumberGuessingGameExample();
+            case 8 -> BankingProgramExample();
+            case 9 -> DiceRollerExample();
+            case 10 -> QuizGameExample();
+            case 11 -> RPSGameExample();
+            case 12 -> SlotMachineGame();
+            default -> System.out.println("Could not read choice. Exiting program...");
+        }
+
+        System.out.println("Closing Intermediate Examples...");
+
+        scanner.close();
     }
 
     public static void MadLibsGameExample() {
