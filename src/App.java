@@ -91,7 +91,8 @@ public class App {
     }
 
     public static void AdvancedExampleMethods() {
-        MusicPlayerExample();
+        //MusicPlayerExample();
+        HangManGameExample();
     }
 
     public static void MadLibsGameExample() {
@@ -159,5 +160,10 @@ public class App {
     public static void MusicPlayerExample() {
         MusicPlayer player = new MusicPlayer();
         player.Player();
+    }
+
+    public static void HangManGameExample() {
+        HangManGame game = new HangManGame();
+        game.Game();
     }
 }
