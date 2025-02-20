@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class HangManGame {
     String word = "light";
     int choice = 0;
-    String filePath = "./hangmanswords/words.txt";
+    String filePath = "src/AdvancedExamples/hangmanwords/words.txt";
 
     public void Game() {
         ArrayList<Character> wordState = new ArrayList<>();
